@@ -1,0 +1,15 @@
+Source: nbs-phpFind
+Section: utils
+Version: 1:0.1.1-1~deb##version+nbs20150428
+Priority: optional
+Maintainer: Aishee
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.5
+Vcs-Git: https://github.com/aishee/phpFind
+Vcs-Browser: https://github.com/aishee/phpFind
+
+Package: nbs-phpFind
+Architecture: any
+Depends: nbs-yara, util-linux
+Description: yara-based php webshell finder
+PhpFind is a webshell hunter using yara and signatures.
